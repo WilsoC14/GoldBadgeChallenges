@@ -1,0 +1,57 @@
+﻿The Komodo Cafe is getting a new menu. 
+
+The cafe manager at Komodo wants to be able to create a menu item, delete a menu item,
+and list all items on the cafe's menu. She needs a console app. 
+
+Each of their menu items will contain the following:
+a meal number so employees can say "I'll have the #5", 
+a meal name, 
+a description, 
+a list of ingredients in the meal, 
+and a price.  
+
+Your task is to do the following:
+1. Create a Menu class with properties, constructors, and fields.
+2. Create a MenuRepository class that has methods needed.
+3. Create a Test Class for your repository methods. (You don't need to test
+your constructors or objects. Just the methods.)
+4. Create a Program file that allows the restaurant manager to add, delete, 
+and see all items in the menu list.
+
+Notes:
+We don't need to update the items right now.
+
+
+
+Console Tasks (program file)
+	-Create a menu item
+	-Delete existing menu item
+	-list all items on menu
+		**Extra options**
+		Add ingredient to menu item
+		Remove ingredient to menu item
+		Update Menu properties
+	
+
+Repository Tasks
+	-Hold Methods for console tasks
+		*Create a menu item			x
+		*Delete a menu item			x
+		*list all items on menu		x
+		
+
+	-Create Menu Class
+		*properties		x		enum.Mealcourse Course, string MealDescription, int MealNumber, bool IsHot, double Cost, 
+		*constructors	x		public MenuItem(MealCourse course, string mealDescrition, int mealNumber, bool isHot, double cost)
+		*fields			x		 List<Ingredient> _listOfIngredients
+		***Method		x bool AddIngredientToItem (Ingredient ingredient)		_listOfingredients.Add(ingredient)
+		
+	-
+
+
+Repository Tests
+constructors and objects not needed for tests??
+
+
+Seed list of ingredients
+Seed list of menu items

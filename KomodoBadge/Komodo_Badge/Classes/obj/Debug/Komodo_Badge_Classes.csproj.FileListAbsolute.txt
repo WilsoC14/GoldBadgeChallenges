@@ -1,0 +1,6 @@
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoBadge\Komodo_Badge\Classes\bin\Debug\Classes.dll
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoBadge\Komodo_Badge\Classes\bin\Debug\Classes.pdb
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoBadge\Komodo_Badge\Classes\obj\Debug\Komodo_Badge_Classes.csprojAssemblyReference.cache
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoBadge\Komodo_Badge\Classes\obj\Debug\Komodo_Badge_Classes.csproj.CoreCompileInputs.cache
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoBadge\Komodo_Badge\Classes\obj\Debug\Classes.dll
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoBadge\Komodo_Badge\Classes\obj\Debug\Classes.pdb

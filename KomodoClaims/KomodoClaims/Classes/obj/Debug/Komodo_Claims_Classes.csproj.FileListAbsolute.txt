@@ -1,0 +1,5 @@
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoClaims\KomodoClaims\Classes\bin\Debug\Classes.dll
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoClaims\KomodoClaims\Classes\bin\Debug\Classes.pdb
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoClaims\KomodoClaims\Classes\obj\Debug\Komodo_Claims_Classes.csproj.CoreCompileInputs.cache
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoClaims\KomodoClaims\Classes\obj\Debug\Classes.dll
+C:\ElevenFifty Projects\DotNetCohort\DotNet\GoldBadgeChallengesCaseSolutions\KomodoClaims\KomodoClaims\Classes\obj\Debug\Classes.pdb

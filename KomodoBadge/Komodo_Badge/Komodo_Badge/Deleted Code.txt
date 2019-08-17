@@ -1,0 +1,100 @@
+﻿Code Deleted from Repository:
+
+        Edit Badges
+
+        public void ViewBadgeAccess(int badgeID)
+        {       //Use would need to be prompted to give an int input prior to calling the method
+                //View badges access before editing it
+                //Console.Clear();
+                //if (badgeAccess.ContainsKey(badgeID))
+                //{
+                //    List<string> accessRooms = badgeAccess[badgeID];
+                //    Console.WriteLine($"{badgeID} has access to rooms: ");
+                //    foreach (var room in accessRooms)
+                //    {
+                //        Console.Write(room);
+
+            //    }
+            //    Console.WriteLine();
+        }
+
+
+
+		    public void EditBadgeAccess(int badgeID)
+    {//UI will need a method with console.writeLine ("Which ID would you like to edit?")
+
+        Console.Clear();
+        ViewBadgeAccess(badgeID);
+        Console.WriteLine(" ");
+
+
+        Console.WriteLine("Would you like to \"add\" or \"remove\" room access for this badge?");
+        string input = Console.ReadLine().ToLower();
+        if (input == "add")
+        { AddBadgeAccess(badgeID); }
+        else if (input == "remove")
+        {
+            Console.WriteLine("Enter rooms you wish to remove: ");
+            Console.WriteLine("Enter \"all\" to remove all rooms from badge");
+            string newinput = Console.ReadLine();
+            if (newinput == "all")
+            { RemoveAllRoomsFromBadge(badgeID); }
+            else
+                RemoveBadgeAccess(badgeID);
+        }
+        else if (input == "exit")
+        { Console.WriteLine("Badge Access not changed"); }
+        else
+        { Console.WriteLine("Please enter a valid response : \"add\" , \"remove\" , or \"exit\""); }
+    }
+
+
+	//Inside RemoveBadgeAccess Method:
+
+	 //if (badgeAccess.ContainsKey(badgeID))
+            //{
+            //    List<string> accessRooms = badgeAccess[badgeID];
+            //    Console.WriteLine($"What room(s) would you like to remove from Badge {badgeID}?");
+            //    string roomAccess = Console.ReadLine();
+            //    string[] roomsToRemoveAccess = roomAccess.Split(',');
+
+            //    foreach (var room in roomsToRemoveAccess)
+            //    {
+            //        accessRooms.Remove(room);
+            //    }
+            //}
+
+
+
+	//InsideRemoveAllRoomsFromBadge
+
+	            if (badgeAccess.ContainsKey(badgeID))
+            {
+               // List<string> accessRooms = badgeAccess[badgeID];
+                Console.WriteLine($"Would you like to remove all accessible rooms from {badgeID}?");
+                string input = Console.ReadLine();
+                if (input == "y")
+                {
+                    badgeAccess[badgeID] = new List<string>();
+                    Console.Clear();
+                    Console.WriteLine("All rooms have been removed from this key.\n" +
+                        "\n");
+                }
+                //        "Would you like to delete this key from Collection of Keys?");
+                //    input = Console.ReadLine();
+
+                //}
+                else if (input == "n")
+                {
+                    Console.WriteLine($"No changes were made to Badge {badgeID}.");
+                }
+                else
+                {
+                    Console.WriteLine("Please enter a valid response (Y/N)");
+
+                }
+            }
+
+            else
+            { Console.WriteLine("Badge ID not found in Badge Library."); }
+        }
